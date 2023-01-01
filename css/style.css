@@ -36,7 +36,7 @@ footer, header, hgroup, menu, nav, section {
 .nav{
     position: fixed;
     width: 100vw;
-    height: 70px;
+    height: 50px;
     top: 0;
     left: 0;
     padding: 10px;
@@ -49,21 +49,54 @@ footer, header, hgroup, menu, nav, section {
 .nav li{
     display: inline-block;
 }
-.nav li img{
-    width: 20px;
-}
 .logo img{
+    display: inline-block;
     position: absolute;
     width: 100px;
     left: 40px;
     top: 20px;
+    text-decoration: none;
 }
 .search{
     position: absolute;
-    top: 10px;
-    left: 500px;
+    top: 20px;
+    left: 400px;
+    text-decoration: none;
+}
+.search input{
+    width: 400px;
+    height: 25px;
+    border-color: #EE4D2D;
+    border-radius: 5px;
+}
+.nav li img{
+    width: 20px;
+    margin: 0 5px;
 }
 .navIcon{
     position: absolute;
     right: 40px;
+    top: 25px;
+    text-decoration: none;
+}
+
+/*內容*/
+.content{
+    position: fixed;
+}
+.label{
+    position: absolute;
+    width: 100vw;
+    left: 40px;
+    top: 100px;
+}
+.label a{
+    color: #2f2f2f;
+    text-decoration: none;
+}
+.clothPhoto img{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    width: 500px;
 }
