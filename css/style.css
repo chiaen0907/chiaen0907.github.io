@@ -97,6 +97,7 @@ footer, header, hgroup, menu, nav, section {
 /*內容*/
 .content{
     position: fixed;
+    height: 100vw;
 }
 .label{
     position: absolute;
