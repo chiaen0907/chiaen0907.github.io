@@ -52,15 +52,15 @@ footer, header, hgroup, menu, nav, section {
 .logo img{
     display: inline-block;
     position: absolute;
-    width: 100px;
+    width: 150px;
     left: 40px;
-    top: 20px;
+    top: 15px;
     text-decoration: none;
 }
 .search{
     position: absolute;
     top: 20px;
-    left: 400px;
+    left: 230px;
     text-decoration: none;
 }
 .search input{
@@ -70,15 +70,29 @@ footer, header, hgroup, menu, nav, section {
     border-radius: 5px;
 }
 .nav li img{
-    width: 20px;
+    width: 25px;
     margin: 0 5px;
 }
 .navIcon{
     position: absolute;
     right: 40px;
-    top: 25px;
+    top: 23px;
     text-decoration: none;
 }
+.navOption{
+    position: absolute;
+    right: 250px;
+    top: 25px;
+    margin: 0 5px;
+}
+.navOption p{
+    margin: 0 10px;
+}
+.navOption a{
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
 
 /*內容*/
 .content{
