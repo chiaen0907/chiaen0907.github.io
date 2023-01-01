@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 
 /*導覽列*/
 .nav{
-    position: fixed;
+    position: relative;
     width: 100vw;
     height: 50px;
     top: 0;
@@ -96,14 +96,14 @@ footer, header, hgroup, menu, nav, section {
 
 /*內容*/
 .content{
-    position: fixed;
+    position: relative;
     height: 100vw;
 }
 .label{
     position: absolute;
     width: 100vw;
     left: 40px;
-    top: 100px;
+    top: 20px;
 }
 .label a{
     color: #2f2f2f;
@@ -112,6 +112,6 @@ footer, header, hgroup, menu, nav, section {
 .clothPhoto img{
     position: absolute;
     left: 40px;
-    top: 140px;
+    top: 70px;
     width: 500px;
 }
