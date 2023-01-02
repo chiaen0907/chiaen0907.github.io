@@ -101,7 +101,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .label-1{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     left: 40px;
     top: 20px;
 }
@@ -116,7 +116,7 @@ footer, header, hgroup, menu, nav, section {
     width: 500px;
 }
 .content h1{
-    position: absolute;
+    position: relative;
     left: 600px;
     top: 60px;
     font-weight: 700;
@@ -150,7 +150,7 @@ footer, header, hgroup, menu, nav, section {
 .star{
     position: absolute;
     left: 600px;
-    top: 300px;
+    top: 270px;
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -162,7 +162,19 @@ footer, header, hgroup, menu, nav, section {
 }
 .star p{
     display: inline-block;
-    font-size: 25px;
+    font-size: 25pt;
     color: #EE4D2D;
     margin: 0 15px;
+}
+.data{
+    display: flex;
+    margin: 15px 0 0 0;
+}
+.data span{
+    margin: 0 15px 0 0;
+}
+.data p{
+    color: #EE4D2D;
+    font-size: 16pt;
+    margin: 0 40px 0 0;
 }
