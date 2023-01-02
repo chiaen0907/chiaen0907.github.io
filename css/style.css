@@ -99,13 +99,13 @@ footer, header, hgroup, menu, nav, section {
     position: relative;
     height: 100vw;
 }
-.label{
+.label-1{
     position: absolute;
     width: 100vw;
     left: 40px;
     top: 20px;
 }
-.label a{
+.label-1 a{
     color: #2f2f2f;
     text-decoration: none;
 }
@@ -114,4 +114,55 @@ footer, header, hgroup, menu, nav, section {
     left: 40px;
     top: 60px;
     width: 500px;
+}
+.content h1{
+    position: absolute;
+    left: 600px;
+    top: 60px;
+    font-weight: 700;
+    font-size: x-large;
+}
+.label-2{
+    position: absolute;
+    left: 600px;
+    top: 105px;
+}
+.label-2 button{
+    margin: 0 10px 0 0;
+    padding: 5px 15px;
+    font-size: xx-small;
+    color: #EE4D2D;
+    background-color: #ffffff;
+    border-color: #EE4D2D;
+    border-radius: 20px;
+}
+.label-2 button a{
+    color: #EE4D2D;
+    text-decoration: none;
+}
+.price{
+    position: absolute;
+    left: 600px;
+    top: 160px;
+    font-size: 35pt;
+    color: #EE4D2D;
+}
+.star{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: #EE4D2D;
+}
+.star p{
+    display: inline-block;
+    font-size: 25px;
+    color: #EE4D2D;
+    margin: 0 15px;
 }
