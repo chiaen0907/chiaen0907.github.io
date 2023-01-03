@@ -114,17 +114,20 @@ footer, header, hgroup, menu, nav, section {
     top: 60px;
     width: 500px;
 }
-.content h1{
+
+.information{
     position: relative;
     width: 40%;
-    left: 600px;
-    top: 60px;
+    left: 830px;
+}
+.content h1{
+    position: absolute;
     font-weight: 700;
     font-size: x-large;
+    top: 60px;
 }
 .label-2{
     position: absolute;
-    left: 600px;
     top: 105px;
 }
 .label-2 button{
@@ -142,14 +145,13 @@ footer, header, hgroup, menu, nav, section {
 }
 .price{
     position: absolute;
-    left: 600px;
     top: 160px;
     font-size: 35pt;
     color: #EE4D2D;
 }
+
 .star{
     position: absolute;
-    left: 600px;
     top: 270px;
 }
 .material-symbols-outlined {
@@ -166,6 +168,7 @@ footer, header, hgroup, menu, nav, section {
     color: #EE4D2D;
     margin: 0 15px;
 }
+
 .data{
     display: flex;
     margin: 15px 0 0 0;
@@ -178,12 +181,105 @@ footer, header, hgroup, menu, nav, section {
     font-size: 16pt;
     margin: 0 40px 0 0;
 }
+
 .choice{
     position: absolute;
-    left: 600px;
-    top: 380px;
-    display: inline-flex;
+    top: 400px;
 }
 .choice p{
     margin: 0 20px 0 0;
+}
+.choice select{
+    margin: 0 40px 0 0;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    border-color: #EE4D2D;
+    border-radius: 5px;
+}
+.color-size{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+.number{
+    display: flex;
+}
+.number button{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-color: #cdcdcd;
+    font-size: medium;
+    width: 25px;
+    height: 25px;
+}
+.number a{
+    color: #EE4D2D;
+    text-decoration: none;
+}
+.add{
+    margin: 0 10px 0 0;
+}
+.remove{
+    margin: 0 30px 0 10px;
+}
+.number input{
+    width: 70px;
+    border-color: #EE4D2D;
+    border-radius: 5px;
+}
+.remainder{
+    color: #8d8d8d;
+    font-size: small;
+}
+.buyButton{
+    margin: 50px 0 0 0;
+}
+.buyCar{
+    width: 120px;
+    height: 40px;
+    background-color: #FFEEE8;
+    border-color: #EE4D2D;
+    border-radius: 5px;
+}
+.buyCar a{
+    color: #EE4D2D;
+    text-decoration: none;
+}
+.buy{
+    width: 120px;
+    height: 40px;
+    background-color: #EE4D2D;
+    border-color: #EE4D2D;
+    border-radius: 5px;
+}
+.buy a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.protectAlert{
+    position: relative;
+    top: 600px;
+}
+.protectAlert ul{
+    display: flex;
+}
+.protectAlert li{
+    display: inline-block;
+}
+.protectAlert hr{
+    padding: 3px 0;
+}
+.protectAlert span{
+    position: relative;
+    left: 40px;
+}
+.protectAlert h2{
+    position: relative;
+    left: 60px;
+    font-weight: 700;
+}
+.protectAlert p{
+    position: relative;
+    left: 120px;
 }
