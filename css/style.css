@@ -49,6 +49,11 @@ footer, header, hgroup, menu, nav, section {
 .nav li{
     display: inline-block;
 }
+.logo{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .logo img{
     display: inline-block;
     position: absolute;
@@ -60,13 +65,14 @@ footer, header, hgroup, menu, nav, section {
 .search{
     position: absolute;
     top: 20px;
-    left: 230px;
+    left: 210px;
     text-decoration: none;
 }
 .search input{
-    width: 400px;
-    height: 25px;
+    width: 430px;
+    height: 35px;
     border-color: #EE4D2D;
+    border-style: groove;
     border-radius: 5px;
 }
 .nav li img{
@@ -92,6 +98,37 @@ footer, header, hgroup, menu, nav, section {
     color: #2f2f2f;
     text-decoration: none;
 }
+.navOption a:hover{
+    color: #EE4D2D;
+}
+
+.dot{
+    display: none;
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+#buyNumber{
+    font-size: x-small;
+    color: #ffffff;
+    background-color: #EE4D2D;
+    width: 18px;
+    height: 17px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuIcon{
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 23px;
+    text-decoration: none;
+}
 
 
 /*內容*/
@@ -107,6 +144,9 @@ footer, header, hgroup, menu, nav, section {
 .label-1 a{
     color: #2f2f2f;
     text-decoration: none;
+}
+.label-1 a:hover{
+    color: #EE4D2D;
 }
 
 /*商品照tab*/
@@ -144,7 +184,7 @@ footer, header, hgroup, menu, nav, section {
 .information{
     position: relative;
     width: 40%;
-    left: 830px;
+    left: 810px;
 }
 .content h1{
     position: absolute;
@@ -155,6 +195,7 @@ footer, header, hgroup, menu, nav, section {
 .label-2{
     position: absolute;
     top: 105px;
+    width: 100%;
 }
 .label-2 button{
     margin: 0 10px 0 0;
@@ -163,6 +204,7 @@ footer, header, hgroup, menu, nav, section {
     color: #EE4D2D;
     background-color: #ffffff;
     border-color: #EE4D2D;
+    border-style: groove;
     border-radius: 20px;
 }
 .label-2 button a{
@@ -197,6 +239,7 @@ footer, header, hgroup, menu, nav, section {
 
 .data{
     display: flex;
+    align-items: center;
     margin: 15px 0 0 0;
 }
 .data span{
@@ -227,9 +270,44 @@ footer, header, hgroup, menu, nav, section {
     display: flex;
     margin: 0 0 20px 0;
 }
+
 .number{
-    display: flex;
+    display: inline-flex;
+    align-items: center;
 }
+.number p{
+    margin: 3px 0 0 0;
+}
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+.count-btn{
+      cursor: pointer;
+      padding: 0 20px 0 20px;
+      font-size: x-large;
+      color: #EE4D2D;
+      border: #EE4D2D;
+}
+.number input{
+    width: 70px;
+    border-color: #EE4D2D;
+    border-radius: 5px;
+    border-style: groove;
+    text-align: center;
+}
+
+/*
 .number button{
     text-align: center;
     background-color: #ffffff;
@@ -238,23 +316,25 @@ footer, header, hgroup, menu, nav, section {
     font-size: medium;
     width: 25px;
     height: 25px;
+    padding: 0;
 }
 .number a{
     color: #EE4D2D;
     text-decoration: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 .add{
-    margin: 0 10px 0 0;
-}
-.remove{
     margin: 0 20px 0 10px;
-}
-.number input{
-    width: 70px;
-    border-color: #EE4D2D;
-    border-radius: 5px;
     text-align: center;
 }
+.remove{
+    margin: 0 10px 0 0;
+    text-align: center;
+}
+*/
+
 .remainder{
     color: #8d8d8d;
     font-size: small;
@@ -265,6 +345,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .buyButton button{
     margin: 0 10px 0 0;
+    border-style: groove;
 }
 .buyCar{
     width: 120px;
@@ -277,8 +358,15 @@ footer, header, hgroup, menu, nav, section {
     color: #EE4D2D;
     text-decoration: none;
 }
+.buyCar:hover{
+    color: #EE4D2D;
+    background-color: #FFCAB8;
+}
+.buyCar a:hover{
+    color: #EE4D2D;
+}
 .buy{
-    width: 120px;
+    width: 160px;
     height: 40px;
     background-color: #EE4D2D;
     border-color: #EE4D2D;
@@ -288,8 +376,15 @@ footer, header, hgroup, menu, nav, section {
     color: #ffffff;
     text-decoration: none;
 }
+.buy:hover{
+    color: #ffffff;
+    background-color: #CC2200;
+}
+.buy a:hover{
+    color: #ffffff;
+}
 .talk{
-    width: 120px;
+    width: 100px;
     height: 40px;
     background-color: #ffffff;
     border-color: #EE4D2D;
@@ -299,6 +394,13 @@ footer, header, hgroup, menu, nav, section {
     color: #EE4D2D;
     text-decoration: none;
 }
+.talk:hover{
+    color: #EE4D2D;
+    background-color: #FFEAE2;
+}
+.talk a:hover{
+    color: #EE4D2D;
+}
 
 .protectAlert{
     position: relative;
@@ -306,12 +408,13 @@ footer, header, hgroup, menu, nav, section {
 }
 .protectAlert ul{
     display: flex;
+    margin: 0;
 }
 .protectAlert li{
     display: inline-block;
 }
 .protectAlert hr{
-    padding: 3px 0;
+    margin: 0 0 15px 0;
 }
 .protectAlert span{
     position: relative;
@@ -352,7 +455,173 @@ footer, header, hgroup, menu, nav, section {
     color: #2f2f2f;
     text-decoration: none;
 }
+.detailContent a:hover{
+    color: #EE4D2D;
+}
 .detailContent ul p{
     width: 100%;
     margin: 10px 0;
+}
+
+
+
+@media(min-width:1400px){
+    ul.menuIcon{
+        display: none;
+    }
+}
+
+
+@media(max-width:1400px){
+    ul.navOption{
+        display: none;
+    }
+    ul.menuIcon{
+        display: none;
+    }
+    div.shopeeintro{
+        display: inline-block;
+    }
+    ul.nav_nav-pills_mb-3{
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    ul.nav_nav-pills_mb-3 li{
+        padding: 10px 10px 10px 0;
+    }
+    div.information{
+        left: 600px;
+        width: 100%;
+    }
+    div.protectAlert{
+        top: 720px;
+        width: 100%;
+    }
+    div.detailContent{
+        top: 740px;
+    }
+}
+
+
+@media(max-width:900px){
+    ul.navIcon{
+        display: none;
+    }
+    ul.menuIcon{
+        display: inline-block;
+    }
+    ul.search{
+        width: 40%;
+        left: 23%;
+    }
+    ul.logo img{
+        width: 16%;
+    }
+    div.content{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:768px){
+    div.nav{
+        height: 60px;
+    }
+    ul.navIcon{
+        display: none;
+    }
+    ul.menuIcon{
+        display: inline-block;
+        right: 30px;
+    }
+    ul.search{
+        display: none;
+    }
+    ul.logo img{
+        width: 120px
+    }
+}
+
+
+@media(max-width:576px){
+    div.nav{
+        height: 50px;
+    }
+    ul.menuIcon{
+        display: none;
+    }
+    ul.logo{
+        width: 100%;
+    }
+    ul.logo img{
+        position: absolute;
+        left: 40%;
+        width: 20%;
+        top: 20%;
+    }
+    p.label-1{
+        display: none;
+    }
+    div.shopeeintro{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    div.tab-content{
+        width: 100%;
+    }
+    div.tab-content img{
+        width: 100%;
+    }
+    ul.nav_nav-pills_mb-3{
+        width: 101.6%;
+    }
+    li.nav-item{
+        width: 100%;
+    }
+    li.nav-item img{
+        width: 100%;
+    }
+    div.content{
+        display: inline-block;
+    }
+    div.information{
+        top: 120px;
+        left: 30px;
+    }
+    div.protectAlert{
+        margin: 0;
+        width: 100%;
+        top: 750px;
+    }
+    div.protectAlert hr{
+        margin: 0;
+    }
+    div.protectAlert ul{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 20px 0;
+    }
+    div.protectAlert span{
+        left: 0;
+        margin: 0 30px;
+    }
+    div.protectAlert h2{
+        margin: 0;
+        left: 0;
+    }
+    div.protectAlert p{
+        left: 0;
+        width: 85%;
+        margin: 0 40px 0 20px;
+    }
+    div.detailContent{
+        margin: 60px 30px;
+        left: 0;
+    }
 }
